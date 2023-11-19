@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingViewController" customModule="Project_2_ios_1" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="fnp-ki-Zfp" id="q0k-wO-mVk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEM-ve-CRc">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="fnp-ki-Zfp">
+                            <rect key="frame" x="171.66666666666666" y="354.66666666666669" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="dgh-5K-ISa"/>
+                                <constraint firstAttribute="height" constant="50" id="eHT-XZ-gcJ"/>
+                            </constraints>
+                            <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="fnp-ki-Zfp" firstAttribute="centerY" secondItem="fEM-ve-CRc" secondAttribute="centerY" id="V4v-Tv-3hh"/>
+                        <constraint firstItem="fnp-ki-Zfp" firstAttribute="centerX" secondItem="fEM-ve-CRc" secondAttribute="centerX" id="Vnf-JB-fyp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fEM-ve-CRc" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="H8z-N5-ZzR"/>
+                <constraint firstItem="fEM-ve-CRc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="c1g-aw-4A7"/>
+                <constraint firstItem="fEM-ve-CRc" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="ecm-tL-8zE"/>
+                <constraint firstItem="fEM-ve-CRc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="sgq-fO-a7p"/>
+            </constraints>
+            <point key="canvasLocation" x="-89.312977099236633" y="19.718309859154932"/>
+        </view>
+    </objects>
+</document>
